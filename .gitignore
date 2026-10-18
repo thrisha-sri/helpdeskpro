@@ -1,0 +1,22 @@
+
+# Compiled files
+target/
+bin/
+*.class
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# IntelliJ files
+.idea/
+*.iml
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Log files
+*.log
