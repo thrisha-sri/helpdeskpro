@@ -1,4 +1,4 @@
-#  HelpDeskPro — Hibernate Ticket Management System
+#  HelpDeskPro Hibernate Ticket Management System
 
 A Java-based helpdesk application built with **Java 21, Hibernate ORM, and MySQL** to manage support tickets, users, and technicians. This project demonstrates object-relational mapping, database operations, business logic, and input validation.
 
@@ -78,8 +78,6 @@ Configure the following variables in your IDE's run configuration:
 
 Confirm that the JDBC URL in `src/main/resources/hibernate.cfg.xml` points to your local `helpdeskpro` database.
 
-**Security note:** Never commit real database passwords, credentials, or other secrets to GitHub.
-
 ## How to Run
 
 ### Using Eclipse
@@ -95,15 +93,12 @@ Confirm that the JDBC URL in `src/main/resources/hibernate.cfg.xml` points to yo
 
 Compile the application from the project root:
 
-```bash
+bash
 mvn clean compile
-```
 
 Maven resolves dependencies declared in `pom.xml`. Run the console application through Eclipse after configuring the required environment variables.
 
 ##  Project Structure
-
-```text
 helpdeskpro/
 ├── src/
 │   ├── main/
