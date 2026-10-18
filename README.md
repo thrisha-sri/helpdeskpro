@@ -1,4 +1,4 @@
-#  HelpDeskPro Hibernate Ticket Management System
+#  HelpDeskPro Hibernate IT-Ticket Management System
 
 A Java-based helpdesk application built with **Java 21, Hibernate ORM, and MySQL** to manage support tickets, users, and technicians. This project demonstrates object-relational mapping, database operations, business logic, and input validation.
 
