@@ -1,11 +1,8 @@
-# 🎫 HelpDeskPro — Hibernate Ticket Management System
+#  HelpDeskPro — Hibernate Ticket Management System
 
 A Java-based helpdesk application built with **Java 21, Hibernate ORM, and MySQL** to manage support tickets, users, and technicians. This project demonstrates object-relational mapping, database operations, business logic, and input validation.
 
-![Java](https://img.shields.io/badge/Java-21-orange?logo=openjdk&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-ORM-blue?logo=hibernate&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-8-4479A1?logo=mysql&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-Build-C71A36?logo=apachemaven&logoColor=white)
+Java 21 | Hibernate ORM | MySQL 8 | Maven
 
 ## Table of Contents
 
@@ -19,9 +16,9 @@ A Java-based helpdesk application built with **Java 21, Hibernate ORM, and MySQL
 - Learning Outcomes
 - Future Improvements
 
-## ✨ Features
+##  Features
 
-### 🎟️ Ticket Management
+### Ticket Management
 - Create, view, update, and delete support tickets
 - Track ticket status: `OPEN`, `IN_PROGRESS`, `RESOLVED`, and `CLOSED`
 - Set ticket priority: `LOW`, `MEDIUM`, `HIGH`, and `CRITICAL`
@@ -29,19 +26,19 @@ A Java-based helpdesk application built with **Java 21, Hibernate ORM, and MySQL
 - View tickets assigned to a particular technician
 - Retrieve tickets using pagination
 
-### 👥 User & Technician Management
+### User & Technician Management
 - Create and view users and technicians
 - Assign technicians to support tickets
 - Manage technician availability
 - Validate input and reject invalid records
 - Prevent assignment to unavailable technicians and prevent reassignment through the current assignment method
 
-### 📊 Dashboard & Reporting
+###  Dashboard & Reporting
 - Display total ticket count
 - Summarize tickets by status and priority
 - View ticket details with associated user and technician information
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Technology | Purpose |
 |---|---|
@@ -53,14 +50,14 @@ A Java-based helpdesk application built with **Java 21, Hibernate ORM, and MySQL
 | HQL | Hibernate Query Language |
 | Eclipse IDE | Development environment |
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - JDK 21 or compatible Java 21 development environment
 - MySQL Server 8 or a compatible version
 - Maven
 - Eclipse IDE or another Java IDE
 
-## 🗄️ Database Setup
+##  Database Setup
 
 1. Start your MySQL server.
 2. Open `src/main/resources/schema.sql`.
@@ -68,7 +65,7 @@ A Java-based helpdesk application built with **Java 21, Hibernate ORM, and MySQL
 
 **Important:** `schema.sql` is intended for a fresh database setup. Back up existing data and review the script before running it against any database that already contains records.
 
-## ⚙️ Configuration
+##  Configuration
 
 The application reads database credentials from environment variables.
 
@@ -83,7 +80,7 @@ Confirm that the JDBC URL in `src/main/resources/hibernate.cfg.xml` points to yo
 
 **Security note:** Never commit real database passwords, credentials, or other secrets to GitHub.
 
-## ▶️ How to Run
+## How to Run
 
 ### Using Eclipse
 
@@ -104,7 +101,7 @@ mvn clean compile
 
 Maven resolves dependencies declared in `pom.xml`. Run the console application through Eclipse after configuring the required environment variables.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 helpdeskpro/
@@ -135,9 +132,8 @@ helpdeskpro/
 ├── .gitignore
 ├── pom.xml
 └── README.md
-```
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates:
 
@@ -149,7 +145,7 @@ This project demonstrates:
 - Input validation and exception handling
 - MySQL integration and connection pooling
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Add automated unit and integration tests
 - Introduce role-based access control
@@ -157,6 +153,5 @@ This project demonstrates:
 - Develop a web-based user interface
 - Add ticket search, sorting, and reporting enhancements
 
----
 
 **Built as a Java and Hibernate learning project.**
